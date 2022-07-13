@@ -5,7 +5,7 @@ Prereq:
 * Install Docker
 
 Steps:
-1. kind create cluster ([Create a cluster with one control-plane](https://kind.sigs.k8s.io/docs/user/quick-start/))
+1. kind create cluster ([create a cluster with one control-plane](https://kind.sigs.k8s.io/docs/user/quick-start/))
 2. kubectl cluster-info --context kind-kind (set context)
 3. kubectl apply -f mongo-secret.yaml
 4. kubectl apply -f mongo-configmap.yaml
